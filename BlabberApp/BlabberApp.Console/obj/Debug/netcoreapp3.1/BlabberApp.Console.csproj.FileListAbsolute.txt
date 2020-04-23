@@ -1,0 +1,11 @@
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/bin/Debug/netcoreapp3.1/BlabberApp.Console.deps.json
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/bin/Debug/netcoreapp3.1/BlabberApp.Console.runtimeconfig.json
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/bin/Debug/netcoreapp3.1/BlabberApp.Console.runtimeconfig.dev.json
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/bin/Debug/netcoreapp3.1/BlabberApp.Console.dll
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/bin/Debug/netcoreapp3.1/BlabberApp.Console.pdb
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.csproj.CoreCompileInputs.cache
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.AssemblyInfoInputs.cache
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.AssemblyInfo.cs
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.dll
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.pdb
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Console/obj/Debug/netcoreapp3.1/BlabberApp.Console.genruntimeconfig.cache
