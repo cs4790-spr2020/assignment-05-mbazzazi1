@@ -1,0 +1,131 @@
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Domain/Entities/Blab.cs
+FN:35,System.Guid BlabberApp.Domain.Entities.Blab::get_Id()
+FNDA:9,System.Guid BlabberApp.Domain.Entities.Blab::get_Id()
+DA:36,9
+FN:36,System.DateTime BlabberApp.Domain.Entities.Blab::get_DTTM()
+FNDA:8,System.DateTime BlabberApp.Domain.Entities.Blab::get_DTTM()
+DA:37,8
+FN:37,System.String BlabberApp.Domain.Entities.Blab::get_Message()
+FNDA:8,System.String BlabberApp.Domain.Entities.Blab::get_Message()
+DA:38,8
+FN:38,BlabberApp.Domain.Entities.User BlabberApp.Domain.Entities.Blab::get_User()
+FNDA:8,BlabberApp.Domain.Entities.User BlabberApp.Domain.Entities.Blab::get_User()
+DA:39,8
+FN:40,System.Boolean BlabberApp.Domain.Entities.Blab::IsValid()
+FNDA:0,System.Boolean BlabberApp.Domain.Entities.Blab::IsValid()
+DA:41,0
+DA:43,0
+DA:44,0
+FN:7,System.Void BlabberApp.Domain.Entities.Blab::.ctor()
+FNDA:6,System.Void BlabberApp.Domain.Entities.Blab::.ctor()
+DA:8,6
+DA:9,6
+DA:10,6
+DA:11,6
+DA:12,6
+DA:13,6
+DA:14,6
+FN:14,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:21,System.Void BlabberApp.Domain.Entities.Blab::.ctor(BlabberApp.Domain.Entities.User)
+FNDA:0,System.Void BlabberApp.Domain.Entities.Blab::.ctor(BlabberApp.Domain.Entities.User)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+FN:28,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String,BlabberApp.Domain.Entities.User)
+FNDA:0,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String,BlabberApp.Domain.Entities.User)
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+LF:35
+LH:11
+BRF:0
+BRH:0
+FNF:9
+FNH:5
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Domain/Entities/User.cs
+FN:7,System.Guid BlabberApp.Domain.Entities.User::get_Id()
+FNDA:15,System.Guid BlabberApp.Domain.Entities.User::get_Id()
+DA:8,15
+FN:8,System.DateTime BlabberApp.Domain.Entities.User::get_RegisterDTTM()
+FNDA:0,System.DateTime BlabberApp.Domain.Entities.User::get_RegisterDTTM()
+DA:9,0
+FN:9,System.DateTime BlabberApp.Domain.Entities.User::get_LastLoginDTTM()
+FNDA:0,System.DateTime BlabberApp.Domain.Entities.User::get_LastLoginDTTM()
+DA:10,0
+FN:10,System.String BlabberApp.Domain.Entities.User::get_Email()
+FNDA:2,System.String BlabberApp.Domain.Entities.User::get_Email()
+DA:11,2
+FN:24,System.Void BlabberApp.Domain.Entities.User::ChangeEmail(System.String)
+FNDA:4,System.Void BlabberApp.Domain.Entities.User::ChangeEmail(System.String)
+DA:25,4
+DA:26,4
+DA:27,0
+DA:29,4
+DA:30,4
+DA:31,1
+DA:32,3
+DA:33,3
+DA:34,3
+DA:36,1
+DA:37,1
+BRDA:26,7,0,4
+BRDA:26,7,1,0
+BRDA:26,24,0,0
+BRDA:26,24,1,4
+FN:38,System.Boolean BlabberApp.Domain.Entities.User::IsValid()
+FNDA:0,System.Boolean BlabberApp.Domain.Entities.User::IsValid()
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+BRDA:40,11,0,0
+BRDA:40,11,1,0
+BRDA:41,30,0,0
+BRDA:41,30,1,0
+BRDA:42,61,0,0
+BRDA:42,61,1,0
+BRDA:43,79,0,0
+BRDA:43,79,1,0
+BRDA:44,99,0,0
+BRDA:44,99,1,0
+FN:12,System.Void BlabberApp.Domain.Entities.User::.ctor()
+FNDA:12,System.Void BlabberApp.Domain.Entities.User::.ctor()
+DA:13,12
+DA:14,12
+DA:15,12
+DA:16,12
+FN:17,System.Void BlabberApp.Domain.Entities.User::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.Domain.Entities.User::.ctor(System.String)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+LF:32
+LH:16
+BRF:14
+BRH:2
+FNF:8
+FNH:4
+end_of_record

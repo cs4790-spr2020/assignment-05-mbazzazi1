@@ -1,0 +1,659 @@
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Plugins/InMemory.cs
+FN:17,System.Void BlabberApp.DataStore.Plugins.InMemory::Create(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:5,System.Void BlabberApp.DataStore.Plugins.InMemory::Create(BlabberApp.Domain.Interfaces.IEntity)
+DA:18,5
+DA:19,5
+DA:20,5
+FN:22,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.InMemory::ReadAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.InMemory::ReadAll()
+DA:23,1
+DA:24,1
+DA:25,1
+FN:27,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.InMemory::ReadById(System.Guid)
+FNDA:1,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.InMemory::ReadById(System.Guid)
+DA:28,1
+DA:29,4
+DA:30,1
+DA:31,2
+DA:32,0
+DA:33,0
+DA:34,1
+BRDA:29,57,1,1
+BRDA:31,44,0,1
+BRDA:31,44,1,0
+BRDA:29,57,0,0
+FN:35,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.InMemory::ReadByUserId(System.String)
+FNDA:0,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.InMemory::ReadByUserId(System.String)
+DA:36,0
+DA:37,0
+FN:39,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.InMemory::ReadByUserEmail(System.String)
+FNDA:5,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.InMemory::ReadByUserEmail(System.String)
+DA:40,5
+DA:41,16
+DA:42,1
+DA:43,1
+DA:44,1
+DA:45,1
+DA:47,0
+DA:48,4
+DA:49,1
+BRDA:41,57,1,1
+BRDA:43,43,0,1
+BRDA:43,43,1,0
+BRDA:41,57,0,4
+FN:51,System.Void BlabberApp.DataStore.Plugins.InMemory::Update(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.Plugins.InMemory::Update(BlabberApp.Domain.Interfaces.IEntity)
+DA:52,1
+DA:53,1
+DA:54,1
+DA:55,1
+FN:57,System.Void BlabberApp.DataStore.Plugins.InMemory::Delete(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:6,System.Void BlabberApp.DataStore.Plugins.InMemory::Delete(BlabberApp.Domain.Interfaces.IEntity)
+DA:58,6
+DA:59,6
+DA:60,6
+FN:61,System.Void BlabberApp.DataStore.Plugins.InMemory::DeleteAll()
+FNDA:0,System.Void BlabberApp.DataStore.Plugins.InMemory::DeleteAll()
+DA:62,0
+DA:63,0
+DA:64,0
+FN:11,System.Void BlabberApp.DataStore.Plugins.InMemory::.ctor()
+FNDA:5,System.Void BlabberApp.DataStore.Plugins.InMemory::.ctor()
+DA:12,5
+DA:13,5
+DA:14,5
+DA:15,5
+LF:38
+LH:30
+BRF:8
+BRH:5
+FNF:9
+FNH:7
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Plugins/MySqlBlab.cs
+FN:26,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Close()
+FNDA:0,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Close()
+DA:27,0
+DA:28,0
+DA:29,0
+FN:30,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Create(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:4,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Create(BlabberApp.Domain.Interfaces.IEntity)
+DA:31,4
+DA:32,4
+DA:34,4
+DA:35,4
+DA:36,4
+DA:37,4
+DA:38,4
+DA:39,4
+DA:40,4
+DA:41,4
+DA:42,4
+DA:43,4
+DA:44,0
+DA:45,0
+DA:46,0
+DA:48,4
+FN:50,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlBlab::ReadAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlBlab::ReadAll()
+DA:51,1
+DA:53,1
+DA:55,1
+DA:56,1
+DA:57,1
+DA:58,1
+DA:60,1
+DA:62,1
+DA:64,5
+DA:65,1
+DA:66,1
+DA:67,1
+DA:69,1
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,1
+BRDA:64,115,1,1
+BRDA:64,115,0,1
+FN:77,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlBlab::ReadById(System.Guid)
+FNDA:2,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlBlab::ReadById(System.Guid)
+DA:78,2
+DA:80,2
+DA:81,2
+DA:82,2
+DA:83,2
+DA:84,2
+DA:86,2
+DA:88,2
+DA:89,1
+DA:91,1
+DA:93,1
+DA:95,1
+DA:96,1
+DA:97,1
+DA:99,1
+FN:101,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlBlab::ReadByUserId(System.String)
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlBlab::ReadByUserId(System.String)
+DA:102,1
+DA:104,1
+DA:105,1
+DA:106,1
+DA:107,1
+DA:108,1
+DA:110,1
+DA:112,1
+DA:114,5
+DA:115,1
+DA:116,1
+DA:117,1
+DA:119,1
+DA:121,0
+DA:122,0
+DA:123,0
+DA:125,1
+BRDA:114,131,1,1
+BRDA:114,131,0,1
+FN:127,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Update(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Update(BlabberApp.Domain.Interfaces.IEntity)
+DA:128,1
+DA:129,1
+DA:130,1
+FN:132,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Delete(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::Delete(BlabberApp.Domain.Interfaces.IEntity)
+DA:133,1
+DA:134,1
+DA:135,1
+FN:136,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::DeleteAll()
+FNDA:11,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::DeleteAll()
+DA:137,11
+DA:138,11
+DA:139,11
+DA:140,11
+DA:141,11
+FN:142,BlabberApp.Domain.Entities.Blab BlabberApp.DataStore.Plugins.MySqlBlab::DataRow2Blab(System.Data.DataRow)
+FNDA:2,BlabberApp.Domain.Entities.Blab BlabberApp.DataStore.Plugins.MySqlBlab::DataRow2Blab(System.Data.DataRow)
+DA:143,2
+DA:144,2
+DA:146,2
+DA:148,2
+DA:150,2
+DA:151,2
+DA:152,2
+DA:154,2
+DA:155,2
+FN:13,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::.ctor()
+FNDA:5,System.Void BlabberApp.DataStore.Plugins.MySqlBlab::.ctor()
+DA:14,5
+DA:15,5
+DA:16,5
+DA:18,5
+DA:19,5
+DA:20,5
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,5
+LF:98
+LH:83
+BRF:4
+BRH:4
+FNF:10
+FNH:9
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Plugins/MySqlUser.cs
+FN:26,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Close()
+FNDA:0,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Close()
+DA:27,0
+DA:28,0
+DA:29,0
+FN:30,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Create(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:3,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Create(BlabberApp.Domain.Interfaces.IEntity)
+DA:31,3
+DA:32,3
+DA:34,3
+DA:35,3
+DA:36,3
+DA:37,3
+DA:38,3
+DA:39,3
+DA:40,3
+DA:41,3
+DA:42,3
+DA:43,3
+DA:44,0
+DA:45,0
+DA:46,0
+DA:48,3
+FN:50,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlUser::ReadAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Plugins.MySqlUser::ReadAll()
+DA:51,1
+DA:53,1
+DA:54,1
+DA:55,1
+DA:56,1
+DA:57,1
+DA:59,1
+DA:61,1
+DA:63,5
+DA:64,1
+DA:65,1
+DA:66,1
+DA:68,1
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,1
+BRDA:63,120,1,1
+BRDA:63,120,0,1
+FN:76,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlUser::ReadById(System.Guid)
+FNDA:1,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlUser::ReadById(System.Guid)
+DA:77,1
+DA:79,1
+DA:80,1
+DA:81,1
+DA:82,1
+DA:83,1
+DA:85,1
+DA:87,1
+DA:89,1
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,1
+FN:96,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlUser::ReadByUserEmail(System.String)
+FNDA:3,BlabberApp.Domain.Interfaces.IEntity BlabberApp.DataStore.Plugins.MySqlUser::ReadByUserEmail(System.String)
+DA:97,3
+DA:99,3
+DA:100,3
+DA:101,3
+DA:102,3
+DA:103,3
+DA:105,3
+DA:107,3
+DA:109,0
+DA:111,3
+DA:112,3
+DA:113,3
+DA:115,0
+FN:117,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Update(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Update(BlabberApp.Domain.Interfaces.IEntity)
+DA:118,1
+DA:119,1
+DA:120,1
+FN:122,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Delete(BlabberApp.Domain.Interfaces.IEntity)
+FNDA:0,System.Void BlabberApp.DataStore.Plugins.MySqlUser::Delete(BlabberApp.Domain.Interfaces.IEntity)
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:132,0
+FN:134,System.Void BlabberApp.DataStore.Plugins.MySqlUser::DeleteAll()
+FNDA:8,System.Void BlabberApp.DataStore.Plugins.MySqlUser::DeleteAll()
+DA:135,8
+DA:136,8
+DA:137,8
+DA:138,8
+DA:139,8
+FN:141,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Plugins.MySqlUser::DataRow2User(System.Data.DataRow)
+FNDA:2,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Plugins.MySqlUser::DataRow2User(System.Data.DataRow)
+DA:142,2
+DA:143,2
+DA:145,2
+DA:146,2
+DA:147,2
+DA:148,2
+DA:150,2
+DA:151,2
+FN:13,System.Void BlabberApp.DataStore.Plugins.MySqlUser::.ctor()
+FNDA:4,System.Void BlabberApp.DataStore.Plugins.MySqlUser::.ctor()
+DA:14,4
+DA:15,4
+DA:16,4
+DA:18,4
+DA:19,4
+DA:20,4
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,4
+LF:97
+LH:71
+BRF:2
+BRH:2
+FNF:10
+FNH:8
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Exceptions/BlabAdapterExceptions.cs
+FN:6,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+FN:9,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String,System.Exception)
+DA:10,0
+DA:11,0
+DA:12,0
+FN:15,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String)
+DA:16,0
+DA:17,0
+DA:18,0
+FN:18,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String,System.Exception)
+DA:19,0
+DA:20,0
+DA:21,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Exceptions/UserAdapterExceptions.cs
+FN:7,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String)
+DA:8,0
+DA:9,0
+DA:10,0
+FN:10,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String,System.Exception)
+DA:11,0
+DA:12,0
+DA:13,0
+FN:16,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String)
+FNDA:7,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String)
+DA:17,7
+DA:18,7
+DA:19,7
+FN:19,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String,System.Exception)
+DA:20,0
+DA:21,0
+DA:22,0
+FN:25,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String)
+DA:26,0
+DA:27,0
+DA:28,0
+FN:28,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String,System.Exception)
+DA:29,0
+DA:30,0
+DA:31,0
+LF:18
+LH:3
+BRF:0
+BRH:0
+FNF:6
+FNH:1
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Adapters/BlabAdapter.cs
+FN:17,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Add(BlabberApp.Domain.Entities.Blab)
+FNDA:4,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Add(BlabberApp.Domain.Entities.Blab)
+DA:18,4
+DA:19,4
+DA:20,4
+FN:22,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Remove(BlabberApp.Domain.Entities.Blab)
+FNDA:1,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Remove(BlabberApp.Domain.Entities.Blab)
+DA:23,1
+DA:24,1
+DA:25,1
+FN:26,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::RemoveAll()
+FNDA:11,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::RemoveAll()
+DA:27,11
+DA:28,11
+DA:29,11
+FN:31,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Update(BlabberApp.Domain.Entities.Blab)
+FNDA:1,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::Update(BlabberApp.Domain.Entities.Blab)
+DA:32,1
+DA:33,1
+DA:34,1
+FN:36,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.BlabAdapter::GetAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.BlabAdapter::GetAll()
+DA:37,1
+DA:38,1
+DA:39,1
+FN:41,BlabberApp.Domain.Entities.Blab BlabberApp.DataStore.Adapters.BlabAdapter::GetById(System.Guid)
+FNDA:2,BlabberApp.Domain.Entities.Blab BlabberApp.DataStore.Adapters.BlabAdapter::GetById(System.Guid)
+DA:42,2
+DA:43,2
+DA:44,1
+FN:45,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.BlabAdapter::GetByUserId(System.String)
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.BlabAdapter::GetByUserId(System.String)
+DA:46,1
+DA:47,1
+DA:48,1
+FN:11,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::.ctor(BlabberApp.DataStore.Interfaces.IBlabPlugin)
+FNDA:5,System.Void BlabberApp.DataStore.Adapters.BlabAdapter::.ctor(BlabberApp.DataStore.Interfaces.IBlabPlugin)
+DA:12,5
+DA:13,5
+DA:14,5
+DA:15,5
+LF:25
+LH:25
+BRF:0
+BRH:0
+FNF:8
+FNH:8
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/Adapters/UserAdapter.cs
+FN:18,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Add(BlabberApp.Domain.Entities.User)
+FNDA:7,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Add(BlabberApp.Domain.Entities.User)
+DA:19,7
+DA:21,7
+DA:22,7
+DA:23,0
+DA:24,7
+DA:25,7
+DA:27,7
+DA:28,7
+DA:29,7
+DA:31,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:37,7
+FN:39,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Remove(BlabberApp.Domain.Entities.User)
+FNDA:5,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Remove(BlabberApp.Domain.Entities.User)
+DA:40,5
+DA:42,5
+DA:43,5
+DA:44,5
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,5
+FN:50,System.Void BlabberApp.DataStore.Adapters.UserAdapter::RemoveAll()
+FNDA:8,System.Void BlabberApp.DataStore.Adapters.UserAdapter::RemoveAll()
+DA:51,8
+DA:52,8
+DA:53,8
+FN:55,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Update(BlabberApp.Domain.Entities.User)
+FNDA:2,System.Void BlabberApp.DataStore.Adapters.UserAdapter::Update(BlabberApp.Domain.Entities.User)
+DA:56,2
+DA:58,2
+DA:59,2
+DA:60,2
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,2
+FN:67,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.UserAdapter::GetAll()
+FNDA:2,System.Collections.IEnumerable BlabberApp.DataStore.Adapters.UserAdapter::GetAll()
+DA:68,2
+DA:70,2
+DA:71,2
+DA:73,0
+DA:74,0
+DA:75,0
+DA:77,2
+FN:79,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Adapters.UserAdapter::GetById(System.Guid)
+FNDA:2,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Adapters.UserAdapter::GetById(System.Guid)
+DA:80,2
+DA:82,2
+DA:83,2
+DA:84,2
+DA:86,0
+DA:87,0
+DA:88,0
+DA:90,2
+FN:92,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Adapters.UserAdapter::GetByEmail(System.String)
+FNDA:8,BlabberApp.Domain.Entities.User BlabberApp.DataStore.Adapters.UserAdapter::GetByEmail(System.String)
+DA:93,8
+DA:95,8
+DA:96,8
+DA:97,1
+DA:99,7
+DA:100,7
+DA:101,7
+DA:103,1
+FN:12,System.Void BlabberApp.DataStore.Adapters.UserAdapter::.ctor(BlabberApp.DataStore.Interfaces.IUserPlugin)
+FNDA:9,System.Void BlabberApp.DataStore.Adapters.UserAdapter::.ctor(BlabberApp.DataStore.Interfaces.IUserPlugin)
+DA:13,9
+DA:14,9
+DA:15,9
+DA:16,9
+LF:60
+LH:43
+BRF:0
+BRH:0
+FNF:8
+FNH:8
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Domain/Entities/Blab.cs
+FN:35,System.Guid BlabberApp.Domain.Entities.Blab::get_Id()
+FNDA:16,System.Guid BlabberApp.Domain.Entities.Blab::get_Id()
+DA:36,16
+FN:36,System.DateTime BlabberApp.Domain.Entities.Blab::get_DTTM()
+FNDA:0,System.DateTime BlabberApp.Domain.Entities.Blab::get_DTTM()
+DA:37,0
+FN:37,System.String BlabberApp.Domain.Entities.Blab::get_Message()
+FNDA:15,System.String BlabberApp.Domain.Entities.Blab::get_Message()
+DA:38,15
+FN:38,BlabberApp.Domain.Entities.User BlabberApp.Domain.Entities.Blab::get_User()
+FNDA:11,BlabberApp.Domain.Entities.User BlabberApp.Domain.Entities.Blab::get_User()
+DA:39,11
+FN:40,System.Boolean BlabberApp.Domain.Entities.Blab::IsValid()
+FNDA:0,System.Boolean BlabberApp.Domain.Entities.Blab::IsValid()
+DA:41,0
+DA:43,0
+DA:44,0
+FN:7,System.Void BlabberApp.Domain.Entities.Blab::.ctor()
+FNDA:1,System.Void BlabberApp.Domain.Entities.Blab::.ctor()
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+FN:14,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:21,System.Void BlabberApp.Domain.Entities.Blab::.ctor(BlabberApp.Domain.Entities.User)
+FNDA:2,System.Void BlabberApp.Domain.Entities.Blab::.ctor(BlabberApp.Domain.Entities.User)
+DA:22,2
+DA:23,2
+DA:24,2
+DA:25,2
+DA:26,2
+DA:27,2
+DA:28,2
+FN:28,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String,BlabberApp.Domain.Entities.User)
+FNDA:4,System.Void BlabberApp.Domain.Entities.Blab::.ctor(System.String,BlabberApp.Domain.Entities.User)
+DA:29,4
+DA:30,4
+DA:31,4
+DA:32,4
+DA:33,4
+DA:34,4
+DA:35,4
+LF:35
+LH:24
+BRF:0
+BRH:0
+FNF:9
+FNH:6
+end_of_record
+SF:/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.Domain/Entities/User.cs
+FN:7,System.Guid BlabberApp.Domain.Entities.User::get_Id()
+FNDA:40,System.Guid BlabberApp.Domain.Entities.User::get_Id()
+DA:8,40
+FN:8,System.DateTime BlabberApp.Domain.Entities.User::get_RegisterDTTM()
+FNDA:0,System.DateTime BlabberApp.Domain.Entities.User::get_RegisterDTTM()
+DA:9,0
+FN:9,System.DateTime BlabberApp.Domain.Entities.User::get_LastLoginDTTM()
+FNDA:0,System.DateTime BlabberApp.Domain.Entities.User::get_LastLoginDTTM()
+DA:10,0
+FN:10,System.String BlabberApp.Domain.Entities.User::get_Email()
+FNDA:41,System.String BlabberApp.Domain.Entities.User::get_Email()
+DA:11,41
+FN:24,System.Void BlabberApp.Domain.Entities.User::ChangeEmail(System.String)
+FNDA:23,System.Void BlabberApp.Domain.Entities.User::ChangeEmail(System.String)
+DA:25,23
+DA:26,23
+DA:27,0
+DA:29,23
+DA:30,23
+DA:31,23
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,23
+DA:37,23
+BRDA:26,7,0,23
+BRDA:26,7,1,0
+BRDA:26,24,0,0
+BRDA:26,24,1,23
+FN:38,System.Boolean BlabberApp.Domain.Entities.User::IsValid()
+FNDA:0,System.Boolean BlabberApp.Domain.Entities.User::IsValid()
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+BRDA:40,11,0,0
+BRDA:40,11,1,0
+BRDA:41,30,0,0
+BRDA:41,30,1,0
+BRDA:42,61,0,0
+BRDA:42,61,1,0
+BRDA:43,79,0,0
+BRDA:43,79,1,0
+BRDA:44,99,0,0
+BRDA:44,99,1,0
+FN:12,System.Void BlabberApp.Domain.Entities.User::.ctor()
+FNDA:5,System.Void BlabberApp.Domain.Entities.User::.ctor()
+DA:13,5
+DA:14,5
+DA:15,5
+DA:16,5
+FN:17,System.Void BlabberApp.Domain.Entities.User::.ctor(System.String)
+FNDA:17,System.Void BlabberApp.Domain.Entities.User::.ctor(System.String)
+DA:18,17
+DA:19,17
+DA:20,17
+DA:21,17
+DA:22,17
+LF:32
+LH:18
+BRF:14
+BRH:2
+FNF:8
+FNH:5
+end_of_record

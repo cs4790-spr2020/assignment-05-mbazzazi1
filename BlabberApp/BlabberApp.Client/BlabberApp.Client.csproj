@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlabberApp.DataStore\BlabberApp.DataStore.csproj" />
+    <ProjectReference Include="..\BlabberApp.Domain\BlabberApp.Domain.csproj" />
+    <ProjectReference Include="..\BlabberApp.Services\BlabberApp.Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
