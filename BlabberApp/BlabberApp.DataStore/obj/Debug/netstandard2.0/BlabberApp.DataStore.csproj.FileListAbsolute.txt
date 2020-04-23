@@ -1,0 +1,12 @@
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/bin/Debug/netstandard2.0/BlabberApp.DataStore.deps.json
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/bin/Debug/netstandard2.0/BlabberApp.DataStore.dll
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/bin/Debug/netstandard2.0/BlabberApp.DataStore.pdb
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/bin/Debug/netstandard2.0/BlabberApp.Domain.dll
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/bin/Debug/netstandard2.0/BlabberApp.Domain.pdb
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.csprojAssemblyReference.cache
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.csproj.CoreCompileInputs.cache
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.AssemblyInfoInputs.cache
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.AssemblyInfo.cs
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.csproj.CopyComplete
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.dll
+/Users/MiladBazzazi/Desktop/BlabberApp/BlabberApp.DataStore/obj/Debug/netstandard2.0/BlabberApp.DataStore.pdb
